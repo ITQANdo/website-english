@@ -1,0 +1,1 @@
+var contactUsButtonFromServices=document.getElementById("goToContact");document.addEventListener("DOMContentLoaded",function(t){contactUsButtonFromServices.addEventListener("click",function(t){t.preventDefault(),document.querySelector("#contact-section").scrollIntoView({behavior:"smooth"})})});
